@@ -46,5 +46,5 @@ setInterval(() => {
     // console.log(scrollpos, delay);
 
     video.currentTime = scrollpos;
-}, 33.3);
+}, 60);
 
