@@ -39,12 +39,12 @@ let delay = 0;
 
 scene.on('update', e => {
     scrollpos = e.scrollPos / 1000; //e.scrollPos is coming from ScrollMagic 
-    console.log(e);
+    // console.log(e);
 })
 
 setInterval(() => {
     delay += (scrollpos - delay) * accelamount;
-    console.log(scrollpos, delay);
+    // console.log(scrollpos, delay);
 
     video.currentTime = scrollpos;
 }, 33.3);
